@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/TwgXM7B/istockphoto-1452604857-612x612.jpg",
+      "title": "Sample Book Title 1",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/KG2WxtY/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2024-03-14",
+      "reading_time": 2,
+      "hashtags": ["fiction", "adventure", "bestseller"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/TwgXM7B/istockphoto-1452604857-612x612.jpg",
+      "title": "Sample Book Title 2",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/KG2WxtY/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2024-03-13",
+      "reading_time": 1.5,
+      "hashtags": ["thriller", "mystery", "newrelease"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/TwgXM7B/istockphoto-1452604857-612x612.jpg",
+      "title": "Sample Book Title 3",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co/KG2WxtY/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2024-03-12",
+      "reading_time": 3,
+      "hashtags": ["romance", "contemporary", "mustread"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/TwgXM7B/istockphoto-1452604857-612x612.jpg",
+      "title": "Sample Book Title 4",
+      "author": "Mark Brown",
+      "author_img": "https://i.ibb.co/KG2WxtY/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2024-03-11",
+      "reading_time": 2.5,
+      "hashtags": ["sciencefiction", "dystopian", "series"]
+    },
+    {
+      "id": 5,
+      "cover": "https://i.ibb.co/TwgXM7B/istockphoto-1452604857-612x612.jpg",
+      "title": "Sample Book Title 5",
+      "author": "Emily Green",
+      "author_img": "https://i.ibb.co/KG2WxtY/4a0ffae7dcdc5f1d1423bfbf192e0714.jpg",
+      "posted_date": "2024-03-10",
+      "reading_time": 1,
+      "hashtags": ["fantasy", "magic", "YA"]
+    }
+  ]
+  
