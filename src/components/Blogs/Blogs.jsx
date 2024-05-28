@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'; 
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
@@ -19,7 +19,7 @@ useEffect (()=>{
 
     return (
         <div className="md:w-2/3">
-            <h1 className="text-4xl">blogs {blogs.length}</h1>
+            <h1 className="text-4xl ml-10">blogs {blogs.length}</h1>
  
         {
             blogs.map (blog =><Blog key={blogs.id}
@@ -33,14 +33,13 @@ useEffect (()=>{
 
 
 
-
-
-
-
-
-
         </div>
+
     );
 };
+
+Blogs.propTypes={
+    handleBookmarks:PropTypes.func
+}
 
 export default Blogs;

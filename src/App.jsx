@@ -9,7 +9,8 @@ function App() {
 
 
   const handleBookmarks= blog=>{
-    console.log('bookmarks adding soon')
+     const newBookmarks =[...bookmarks,blog];
+     setBookmarks(newBookmarks);
   }
    
   return (
@@ -21,7 +22,7 @@ function App() {
       
        <Blogs handleBookmarks={handleBookmarks}></Blogs>
     
-    <Bookmarks></Bookmarks>   
+    <Bookmarks bookmarks={bookmarks}></Bookmarks>   
     </div>
   
    
