@@ -6,7 +6,7 @@ import Blog from "../Blog/Blog";
  
 
 
-const Blogs = ({handleBookmarks}) => {
+const Blogs = ({handleBookmarks ,handleMarksAsread}) => {
 
 const  [blogs,setBlogs] =useState([])
 
@@ -25,6 +25,7 @@ useEffect (()=>{
             blogs.map (blog =><Blog key={blogs.id}
                 blog={blog}
                 handleBookmarks={handleBookmarks}
+                handleMarksAsread={handleMarksAsread}
             >
             
             </Blog>)
@@ -39,7 +40,8 @@ useEffect (()=>{
 };
 
 Blogs.propTypes={
-    handleBookmarks:PropTypes.func
+    handleBookmarks:PropTypes.func,
+    handleMarksAsread:PropTypes.func
 }
 
 export default Blogs;
