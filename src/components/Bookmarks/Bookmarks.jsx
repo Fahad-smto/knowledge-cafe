@@ -14,7 +14,7 @@ function Bookmarks( {bookmarks,readingTime}) {
             <div className='ml-10 lg:ml-28 text-xl'>Reading time :<span className='text-red-700'>{readingTime}</span> </div>
            <h2 className='text-center text-3xl'> bookmarks:{bookmarks.length}</h2>
            {
-            bookmarks.map(bookmark=><Bookmark key={bookmark.id} bookmark={bookmark}></Bookmark>)
+            bookmarks.map((bookmark,idx)=><Bookmark key={idx} bookmark={bookmark}></Bookmark>)
            }
         </div>
     );
